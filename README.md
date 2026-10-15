@@ -6,11 +6,11 @@ Thực hành môn **Kiểm thử Tự động** của nhóm **5**.
 
 | STT | Mã SV | Họ và Tên | Vai trò | GitHub |
 | :---: | :---: | :--- | :---: | :--- |
-| 1 | `A48546` | **Kiều Thiên Phú** | Nhóm trưởng | `@username` |
-| 2 | `A48376` | **Nguyễn Vũ Khanh**   | Thành viên | `@username` |
-| 3 | `A49047` | **Lê Văn Việt**  | Thành viên | `@username` |
-| 4 | `A48942` | **Bùi Anh Minh**  | Thành viên | `@username` |
-| 5 | `A48268` | **Đinh Văn Thanh** | Thành viên | `@username` |
+| 1 | `A48546` | **Kiều Thiên Phú** | Nhóm trưởng | `@ktphu1612` |
+| 2 | `A48376` | **Nguyễn Vũ Khanh**   | Thành viên | `@vukhanhkg2005-lang` |
+| 3 | `A49047` | **Lê Văn Việt**  | Thành viên | `@waveBro` |
+| 4 | `A48942` | **Bùi Anh Minh**  | Thành viên | `@sperhero101-create` |
+| 5 | `A48268` | **Đinh Văn Thanh** | Thành viên | `thanhdaynee` |
 
 ---
 
