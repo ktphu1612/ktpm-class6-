@@ -1,22 +1,26 @@
-Thực hành môn **Kiểm thử Tự động** của nhóm **5**.
+# Tuần 04 — Smoke test đầu tiên
 
----
+## Nội dung
+- `test_smoke.py` — mở trang chủ [The Internet](https://the-internet.herokuapp.com/) và kiểm tra tiêu đề trang đúng là "The Internet".
+- `evidence/smoke-test-pass.png` — ảnh minh chứng test chạy pass.
 
-## 👥 Thành viên nhóm
+## Yêu cầu
+- Python 3.x
+- Google Chrome (Selenium 4 tự tải driver, không cần cài chromedriver thủ công)
 
-| STT | Mã SV | Họ và Tên | Vai trò | GitHub |
-| :---: | :---: | :--- | :---: | :--- |
-| 1 | `A48546` | **Kiều Thiên Phú** | Nhóm trưởng | `@ktphu1612` |
-| 2 | `A48376` | **Nguyễn Vũ Khanh**   | Thành viên | `@vukhanhkg2005-lang` |
-| 3 | `A49047` | **Lê Văn Việt**  | Thành viên | `@waveBro` |
-| 4 | `A48942` | **Bùi Anh Minh**  | Thành viên | `@sperhero101-create` |
-| 5 | `A48268` | **Đinh Văn Thanh** | Thành viên | `thanhdaynee` |
+## Cách chạy
 
----
+Chạy từ thư mục gốc của repo:
 
-## Đối tượng & Công cụ kiểm thử
+```powershell
+# 1. Tạo môi trường ảo (chỉ làm lần đầu)
+python -m venv .venv
 
+# 2. Cài thư viện cần thiết
+.venv\Scripts\pip install -r requirements.txt
 
-### 🌐Kiểm thử Web
-* **Trang web kiểm thử:** [The Internet - Herokuapp](https://the-internet.herokuapp.com/)
-* **Ngôn ngữ & Công cụ:** Python 3.x, Selenium 4, pytest, pytest-html, trình duyệt Google Chrome.
+# 3. Chạy test
+.venv\Scripts\python -m pytest week-04 -v
+```
+
+Kết quả mong đợi: `1 passed`
