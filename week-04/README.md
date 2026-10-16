@@ -2,7 +2,7 @@
 
 ## Nội dung
 - `test_smoke.py` — mở trang chủ [The Internet](https://the-internet.herokuapp.com/) và kiểm tra tiêu đề trang đúng là "The Internet".
-- `anh.png` — ảnh minh chứng test chạy pass.
+- `evidence/smoke-test-pass.png` — ảnh minh chứng test chạy pass.
 
 ## Yêu cầu
 - Python 3.x
